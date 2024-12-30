@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/Satyajit..png" class="logo" alt="" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>Hi, I'm <span>Satyajit</span><br /></h1>
+          <h3>And am a <span class="text"></span></h3>
+          <div class="social-icons">
+            <a href="https://github.com/Satyajit-Biswal-Code"><i class="fab fa-github"></i></a>
+            <a href="https://x.com/Satyajit1862567?t=C4BnpyicD14jo7JmMt0VUw&s=09"><i class="fab fa-twitter-square"></i></a>
+            <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/satyajit-biswal-623b532b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <button class="btn3">More About Me</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT-----------------ABOUT--------------ABOUT---------------ABOUT-------------ABOUT-------------ABOUT-------------ABOUT--------------ABOUT-->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Aboutimagee.png" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I'm Satyajit a passionate and detail-driven UI/UX Designer and Web
+              Developer.I am excited to bring my skills and creativity to tsble
+              tha craft innoovative digital experiences. I've to developed a
+              strong foundation design and Frontend Development. I created many
+              fully functionality and also responssive websites these are best
+              wireframing and prototyping.With a strong foundation in design
+              principles human-centered design.I'm driven by a desire to create
+              seamless interactions,intutive interfaces and pixel perfect
+              design.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experiences')">
+                Expriences
+              </p>
+              <p class="tab-links" onclick="opentab('educations')">
+                Educations
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing web/App interfaces</li>
+                <li><span>Web Development</span><br />Designing web pages</li>
+                <li>
+                  <span>FullStack Java Development</span><br />Creating
+                  Management Applications
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experiences">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Completed my internship in
+                  CODSOFT
+                </li>
+                <li>
+                  <span>UI/UX</span><br />Now continuing my internship in
+                  CODEALPHA
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="educations">
+              <ul>
+                <li>
+                  <span>2020</span><br />10th from Basudev High School,SaralPur
+                </li>
+                <li>
+                  <span>2020-2022</span><br />12th from Jupiter Higher Secondary
+                  College,BBSR
+                </li>
+                <li>
+                  <span>2022-2026</span><br />Btech from Einstein Accademy of
+                  Technology and Management,Khordha
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES-------------SERVICES----------SERVICES---------------SERVICES--------------SERVICES---------------SERVICES--------------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>web Developer</h2>
+            <p>
+              Building bridges between code and creativity oneline ate a
+              time.Where code meets creativity and possibilities are endless
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Designer</h2>
+            <p>
+              Transforming digital interactions into seamless
+              experiences.Crafting intuitive visually stunning and user-centered
+              designs that elevates brand and delight uses.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java Developer</h2>
+            <p>
+              Delivering cutting-edges solutions that exceed
+              expections.Scalable,secured and efficient applications that drives
+              digital transformation and business success.
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----PORTFOLIO---------------PORTFOLIO------------PORTFOLIO-------------PORTFOLIO----------------PORTFOLIO -----------PORTFOLIO-------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/image.png" alt="" />
+            <div class="layer">
+              <h3>Chat App</h3>
+              <p>
+                This the fully responsive with interactive UI with fully
+                functionality
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Ecom.jpg" alt="" />
+            <div class="layer">
+              <h3>Ecommerce</h3>
+              <p>All functionality are available in this Ecommerce.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/ATM 1.PNG" alt="" />
+            <div class="layer">
+              <h3>Management System</h3>
+              <p>This is the Secured and transactionable project.</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/EmployeePortal.jpg" alt="" />
+            <div class="layer">
+              <h3>Employee Portal</h3>
+              <p>
+                Scientifically optimized to capture attention,building trust and
+                convert visitors into loyal customers.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/YoutubePremium.webp" alt="" />
+            <div class="layer">
+              <h3>YoutubePremium</h3>
+              <p>
+                Same as the YoutubePremium also video functionality. 
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Cofee_Poster.jpg" alt="" />
+            <div class="layer">
+              <h3>Posters</h3>
+              <p>
+                Best UI with familar fonts designed for posters.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Ascii Table.png" alt="" />
+            <div class="layer">
+              <h3>Ascii Value</h3>
+              <p>
+                Mainly used for showing and knowledge about ASCII values.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/cartoon_image.jpg" alt="" />
+            <div class="layer">
+              <h3>2D Animation</h3>
+              <p>
+               It is for entertainment purpose with beautiful stories.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- CONTACT-------------CONTACT------------CONTACT----------------CONTACT----------CONTACT-----------CONTACT--------------CONTACT--------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fas fa-paper-plane"></i>banty@gmail.com</p>
+            <p><i class="fas fa-phone-square"></i>9938318246</p>
+            <div class="social-icons">
+              <a href="https://github.com/Satyajit-Biswal-Code"><i class="fab fa-github"></i></a>
+              <a href="https://x.com/Satyajit1862567?t=C4BnpyicD14jo7JmMt0VUw&s=09"><i class="fab fa-twitter-square"></i></a>
+              <a href="instagram.com"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/satyajit-biswal-623b532b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+              "><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                id=""
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- LOGIC------------LOGIC-------LOGIC-------------LOGIC----------LOGIC-------------LOGIC---------------LOGIC--------------LOGIC-------------- -->
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
